@@ -13,7 +13,7 @@ import UserListItem from '../UserAvatar/UserListItem'
 const SideDrawer = () => {
   const toast = useToast()
   const history = useHistory()
-  const { selectedChat, setSelectedChat, user, chats, setChats } = ChatState();
+  const {  setSelectedChat, user, chats, setChats } = ChatState();
 
   const { isOpen, onOpen, onClose } = useDisclosure()
 

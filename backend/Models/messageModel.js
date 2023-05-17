@@ -11,7 +11,7 @@ const messageModel=mongoose.Schema({
     },
     chat:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"User"
+        ref:"Chat"
     }
 },{
     timestamps:true
