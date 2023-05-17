@@ -25,4 +25,4 @@ app.use(notFound)
 app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
-app.listen(PORT, console.log(`server started onn port ${PORT}`.yellow.bold))
+app.listen(PORT,  )

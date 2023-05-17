@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300&display=swap");
 
-.App{
-    min-height: 100vh;
-    display: flex;
-    background-color: #013542;
-    background-size: cover;
-    background-position: center;
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-color: #013542;
+  background-size: cover;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
